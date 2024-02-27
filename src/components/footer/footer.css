@@ -1,0 +1,54 @@
+a{
+    font-family: Inter;
+}
+.wb-footer-container {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding */
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+  }
+  
+  /* Footer line 1 and line 2 */
+  .wb-footer-line1,
+  .wb-footer-line2,.wb-footer-line3{
+    display: flex; /* Flex container */
+    justify-content: center; /* Center-align links */
+    margin-bottom: 20px; /* Bottom margin */
+    flex-direction: column;
+    margin: 0px 150px;
+    align-items: start ;
+  }
+  
+  /* Footer links */
+  .wb-footer-line1 a,
+  .wb-footer-line2 a {
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    margin: 20px 10px; /* Horizontal margin between links */
+  }
+  
+  .wb-footer-line1 a:hover,
+  .wb-footer-line2 a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Footer line 3 */
+  .wb-footer-line3 {
+    display: flex; /* Flex container */
+    justify-content: center; /* Center-align content */
+    align-items: center; /* Center vertically */
+  }
+  
+  .wb-footer-line3 a {
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    margin-right: 10px; /* Right margin */
+  }
+  
+  .wb-footer-line3 img {
+    width: 16px; /* Image width */
+    margin-top: -2px; /* Adjust vertical alignment */
+  }
+  

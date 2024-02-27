@@ -1,0 +1,63 @@
+.wb-cta-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: auto;
+    height: 171px;
+    background-color: #FBFCFD;
+}
+.wb-cta-heading{
+    width: 45%;
+}
+.wb-cta-heading p{
+font-family: Inter;
+font-size: 32px;
+font-weight: 400;
+line-height: 44px;
+text-align: left;
+margin-top: 33px;
+margin-bottom: 50px;
+margin-left: 10px;
+color : #5C6874
+
+}
+.wb-cta-input{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+.wb-cta-input input{
+width: 348px;
+height: 52px;
+border-radius: 12px, 0px, 0px, 12px;
+border: none;
+
+}
+.wb-cta-input button{
+width: 97px;
+height: 52px;
+border-radius: 0px 15px 15px 0px;
+border: none;
+background-color:#1B88F4 ;
+color: white;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+}
+@media screen and (max-width: 520px) {
+    .wb-cta-container{
+        margin-top: 50px;
+    }
+    .wb-cta-heading p{
+        font-family: Inter;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 35px;
+        
+    }
+
+}

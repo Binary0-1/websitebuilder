@@ -1,0 +1,143 @@
+.wb-deals-container {
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.wb-deals-card-layout{
+    /* margin-right: 11px;
+    margin-left: 11px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+
+}
+.wb-deals-container-heading {
+  margin-left: 10px;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 35px;
+}
+.wb-deals-card {
+  display: flex;
+  flex-direction: column;
+  width: 333px;
+  justify-self: center;
+  align-items: center;
+
+  height: 425px;
+  background-color: white;
+}
+.wb-deals-card-image {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.wb-deals-card-image img {
+  height: 50%;
+}
+.wb-deals-card-Info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  
+}
+.wb-deals-card-perks {
+  display: felx;
+  flex-direction: row;
+  margin: 2px 2px;
+}
+.wb-deals-card-perks a {
+  text-decoration: none;
+  
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-right: 8px;
+
+  background-color: #f2f4f7;
+  padding: 2px 6px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.wb-deals-card-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.wb-deals-card-title a {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  color: #626e79;
+}
+.wb-deals-card-titleinfo {
+  
+  margin-right: 20px;
+  margin-top: 7px;
+}
+.wb-deals-card-titleinfo p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #626e79;
+  text-align: left;
+}
+.wb-deals-card-button-container {
+    display: flex;
+    flex-direction: row;
+}
+.wb-deals-card-button {
+ width: 293px;
+  height: 48px;
+  border-radius: 12px;
+  border: none;
+  background-color: #1b88f4;
+  margin-top: 12px;
+}
+.wb-deals-card-pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.wb-deals-card-pricing p:nth-child(1) {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  margin-right: 10px;
+}
+.wb-deals-card-pricing p:nth-child(2) {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9fa9b3;
+  margin-right: 12px;
+}
+.wb-deals-card-pricing p:nth-child(3) {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  color: #ef4c5d;
+}
+@media screen and (max-width: 660px) {
+  .wb-deals-card-layout{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+}
