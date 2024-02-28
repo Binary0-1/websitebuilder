@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/websitebuilder/static/css/main.8d8a998b.css",
+    "main.js": "/websitebuilder/static/js/main.3b6ad599.js",
+    "static/media/image.svg": "/websitebuilder/static/media/image.515a3a450b018522876771664e216b4f.svg",
+    "index.html": "/websitebuilder/index.html",
+    "main.8d8a998b.css.map": "/websitebuilder/static/css/main.8d8a998b.css.map",
+    "main.3b6ad599.js.map": "/websitebuilder/static/js/main.3b6ad599.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d8a998b.css",
+    "static/js/main.3b6ad599.js"
+  ]
+}
