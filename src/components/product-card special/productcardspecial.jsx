@@ -16,9 +16,9 @@ const Productcard = (props) => {
         <p dangerouslySetInnerHTML={{__html: props.maininfo}}></p>
         <p>Main Highlights</p>
         <div className='wb-productcard-specialdiv'>
-          <div><a href="">9.9</a><a href="">Building Responsive</a></div>
-          <div><a href="">8.9</a><a href="">Cool</a></div>
-          <div><a href="">8.9</a><a href="">Docs</a></div> 
+          <div><a href="#home">9.9</a><a href="#home">Building Responsive</a></div>
+          <div><a href="#home">8.9</a><a href="#home">Cool</a></div>
+          <div><a href="#home">8.9</a><a href="#home">Docs</a></div> 
         </div>
         <div className='wb-productcard-showmore'>
         <a href="#">Show more <img src={arrowbottom} alt="#" /></a>

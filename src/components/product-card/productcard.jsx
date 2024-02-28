@@ -17,7 +17,7 @@ const Productcard = (props) => {
         <p>Main Highlights</p>
         <p>{props.addinfo}</p>
         <div className='wb-productcard-showmore'>
-        <a href="#">Show more <img src={arrowbottom} alt="#" /></a>
+        <a href="#home">Show more <img src={arrowbottom} alt="#" /></a>
         </div>
       </div>
       <div className='wb-productcard-rating'>
